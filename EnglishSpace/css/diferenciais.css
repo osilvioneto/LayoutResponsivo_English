@@ -1,0 +1,56 @@
+.diferenciais {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+}
+
+.diferenciais__lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.diferenciais__item {
+    max-width: 500px;
+
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+
+    padding: 4rem 0 3rem 10rem;
+}
+
+.diferenciais__item--conversa {
+    background-image: url(../img/conversa.png);
+    background-position: top 1.25rem left 2.5rem;
+    background-size: 95px;
+}
+.diferenciais__item--escrita {
+    background-image: url(../img/escrita.png);
+    background-position: top 1.25rem left 2.5rem;
+    background-size: 95px;
+}
+.diferenciais__item--midia {
+    background-image: url(../img/midia.png);
+    background-position: top 1.25rem left 2.5rem;
+    background-size: 95px;
+}
+
+.item__titulo {
+    color: var(--cinza-escuro);
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+
+    margin-bottom: 1.5rem;
+}
+
+.item__texto {
+    line-height: normal;
+}
+@media screen and (min-width: 1024px){
+    .diferenciais {
+        background-color: var(--cinza-claro);
+    }
+    .diferenciais__lista {
+        justify-content: space-around;
+    }
+}
